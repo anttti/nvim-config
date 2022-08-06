@@ -21,4 +21,3 @@ set.smartcase = true
 vim.cmd [[
   syntax enable
 ]]
-
