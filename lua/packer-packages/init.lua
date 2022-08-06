@@ -32,6 +32,14 @@ require('packer').startup(function(use)
 
   -- Color theme
   use {"EdenEast/nightfox.nvim"}
+
+  use {
+    'phaazon/hop.nvim',
+    branch = 'v2',
+    config = function()
+      require'hop'.setup {}
+    end
+  }
 end)
 
 

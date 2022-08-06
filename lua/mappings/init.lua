@@ -17,3 +17,5 @@ end
 map("n", "<Leader><Space>", ":nohlsearch<CR>", { silent = true })
 map("n", "<Leader>tt", ":NvimTreeToggle<CR>", { silent = true })
 map("n", "<Leader>tf", ":NvimTreeFocus<CR>", { silent = true })
+map("n", "<Leader>hw", ":HopWord<CR>", { silent = true })
+map("n", "<Leader>hl", ":HopLine<CR>", { silent = true })
