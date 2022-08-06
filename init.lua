@@ -11,3 +11,4 @@ require('nvim-treesitter-config')
 require('nvim-tree-config')
 require('nvim-csp-config')
 
+vim.cmd("colorscheme nordfox")
