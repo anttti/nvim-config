@@ -40,6 +40,8 @@ require('packer').startup(function(use)
       require'hop'.setup {}
     end
   }
+
+  use {'numToStr/Comment.nvim'}
 end)
 
 

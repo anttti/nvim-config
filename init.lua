@@ -19,3 +19,5 @@ vim.api.nvim_command('highlight HopNextKey1 guifg=#00dfff gui=bold ctermfg=45 ct
 vim.api.nvim_command('highlight HopNextKey2 guifg=#2b8db3 ctermfg=33')
 vim.api.nvim_command('highlight HopUnmatched guifg=#666666 guibg=bg guisp=#666666 ctermfg=242')
 
+-- https://github.com/numToStr/Comment.nvim
+require('Comment').setup()
