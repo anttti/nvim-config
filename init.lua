@@ -9,5 +9,5 @@ require('packer-packages')
 require('elixir')
 require('nvim-treesitter-config')
 require('nvim-tree-config')
-require('nvim-cmp-config')
+require('nvim-csp-config')
 
