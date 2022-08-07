@@ -47,6 +47,17 @@ require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  use { 'romgrk/barbar.nvim' }
+
+  -- use { "AckslD/nvim-neoclip.lua" }
+  use {
+    "AckslD/nvim-neoclip.lua",
+    requires = { {'nvim-telescope/telescope.nvim'} },
+    config = function()
+      require('neoclip').setup()
+    end
+  }
 end)
 
 

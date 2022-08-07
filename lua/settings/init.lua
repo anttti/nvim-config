@@ -21,3 +21,6 @@ set.smartcase = true
 vim.cmd [[
   syntax enable
 ]]
+
+vim.cmd("colorscheme nordfox")
+
