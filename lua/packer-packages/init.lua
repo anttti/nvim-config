@@ -50,7 +50,6 @@ require('packer').startup(function(use)
 
   use { 'romgrk/barbar.nvim' }
 
-  -- use { "AckslD/nvim-neoclip.lua" }
   use {
     "AckslD/nvim-neoclip.lua",
     requires = { {'nvim-telescope/telescope.nvim'} },
@@ -58,6 +57,13 @@ require('packer').startup(function(use)
       require('neoclip').setup()
     end
   }
+
+  use({
+    "kylechui/nvim-surround",
+    config = function()
+      require("nvim-surround").setup()
+    end
+  })
 end)
 
 
