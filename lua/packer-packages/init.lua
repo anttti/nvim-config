@@ -31,7 +31,7 @@ require('packer').startup(function(use)
   }
 
   -- Color theme
-  use {"EdenEast/nightfox.nvim"}
+  use 'EdenEast/nightfox.nvim'
 
   use {
     'phaazon/hop.nvim',
@@ -41,14 +41,14 @@ require('packer').startup(function(use)
     end
   }
 
-  use {'numToStr/Comment.nvim'}
+  use 'numToStr/Comment.nvim'
 
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use { 'romgrk/barbar.nvim' }
+  use 'romgrk/barbar.nvim'
 
   use {
     "AckslD/nvim-neoclip.lua",
@@ -66,6 +66,13 @@ require('packer').startup(function(use)
   })
 
   use 'feline-nvim/feline.nvim'
+
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup()
+    end
+  }
 end)
 
 

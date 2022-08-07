@@ -22,5 +22,5 @@ vim.cmd [[
   syntax enable
 ]]
 
-vim.cmd("colorscheme nordfox")
+vim.cmd("colorscheme nightfox")
 
