@@ -14,5 +14,5 @@ require('mappings')
 
 -- https://github.com/numToStr/Comment.nvim
 require('Comment').setup()
-
+require('feline').setup()
 require('telescope').load_extension('neoclip')

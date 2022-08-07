@@ -64,6 +64,8 @@ require('packer').startup(function(use)
       require("nvim-surround").setup()
     end
   })
+
+  use 'feline-nvim/feline.nvim'
 end)
 
 
